@@ -1,10 +1,10 @@
-# 📚 ZARA AI - Complete Documentation
+# 📚 POLYNIKI AI - Complete Documentation
 
 ## 📋 Table of Contents
 
 1. [Introduction](#introduction)
 2. [System Architecture](#system-architecture)
-3. [Chat Terminal with Zara](#chat-terminal-with-zara)
+3. [Chat Terminal with POLYNIKI AI](#chat-terminal-with-POLYNIKI AI)
 4. [Telegram Bot](#telegram-bot)
 5. [Automated Twitter](#automated-twitter)
 6. [Channel Monitor (GemTools)](#channel-monitor-gemtools)
@@ -20,7 +20,7 @@
 
 ## Introduction
 
-**Zara AI** is a trading intelligence agent that monitors prediction markets (Polymarket) and Solana tokens. It automates signal publishing on Telegram and Twitter, and provides a web interface with interactive chat.
+**POLYNIKI AI AI** is a trading intelligence agent that monitors prediction markets (Polymarket) and Solana tokens. It automates signal publishing on Telegram and Twitter, and provides a web interface with interactive chat.
 
 ### Main Features
 
@@ -57,7 +57,7 @@
 │  (Node.js + Express)                                         │
 │                                                              │
 │  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐            │
-│  │  Zara AI    │ │  Telegram   │ │  Twitter    │            │
+│  │  POLYNIKI AI AI    │ │  Telegram   │ │  Twitter    │            │
 │  │  (Claude)   │ │    Bot      │ │   Client    │            │
 │  └─────────────┘ └─────────────┘ └─────────────┘            │
 │                                                              │
@@ -84,13 +84,13 @@
 
 ---
 
-## Chat Terminal with Zara
+## Chat Terminal with POLYNIKI AI
 
 ### Description
-Interactive terminal where users can chat with Zara AI to get market analysis, token information, and trading insights.
+Interactive terminal where users can chat with POLYNIKI AI AI to get market analysis, token information, and trading insights.
 
 ### File
-`backend/src/services/zara-ai.js`
+`backend/src/services/POLYNIKI AI-ai.js`
 
 ### Functions
 
@@ -103,7 +103,7 @@ Interactive terminal where users can chat with Zara AI to get market analysis, t
 | `clearSession(sessionId)` | Clears conversation history |
 
 ### System Prompt
-Zara has a defined personality:
+POLYNIKI AI has a defined personality:
 - Professional and direct
 - No emojis
 - Data-focused
@@ -181,12 +181,12 @@ Bot that publishes automatic signals to a Telegram channel. Sends market movemen
 
 🔗 View Market
 
-⏰ 15:30 UTC | @ZaraSignals
+⏰ 15:30 UTC | @POLYNIKI AISignals
 ```
 
 #### 2. GemTools Token Call
 ```
-🤖 ZARA SIGNAL | New Token Alert
+🤖 POLYNIKI AI SIGNAL | New Token Alert
 
 🪙 The Hottest Actress - $SCARLETT
 📊 GTscore: 🌑🌑🌑🌑🌑
@@ -213,23 +213,23 @@ Efs9Ktsi9CCNqVcuT6pdpe9R33B7tjmQPxvVuZVpump
 
 🔗 PumpFun | DexScreener | Solscan
 
-⚡️ Powered by Zara AI
+⚡️ Powered by POLYNIKI AI AI
 ```
 
 #### 3. Multiplier Alert
 ```
-🚀🚀🚀 ZARA MULTIPLIER ALERT 🚀🚀🚀
+🚀🚀🚀 POLYNIKI AI MULTIPLIER ALERT 🚀🚀🚀
 
 💎 $SCARLETT just did x11!
 
 💵 MC: $144K → $1M5
 
-⚡️ Powered by Zara AI
+⚡️ Powered by POLYNIKI AI AI
 ```
 
 #### 4. Polymarket Summary (every 15 min)
 ```
-🔮 ZARA POLYMARKET UPDATE
+🔮 POLYNIKI AI POLYMARKET UPDATE
 ━━━━━━━━━━━━━━━━━━━━━
 
 📊 Market Overview
@@ -263,7 +263,7 @@ Efs9Ktsi9CCNqVcuT6pdpe9R33B7tjmQPxvVuZVpump
 
 ━━━━━━━━━━━━━━━━━━━━━
 ⏰ 15:30 UTC | Update #42
-🤖 Powered by Zara AI
+🤖 Powered by POLYNIKI AI AI
 ```
 
 ### Automatic Images
@@ -331,7 +331,7 @@ Vol: $1.5M
 💎 Crypto: "ETH above $5000?..."
 YES: 35.2%
 
-@SignalsZara
+@SignalsPOLYNIKI AI
 ```
 **Attached image:** `15.png`
 
@@ -370,7 +370,7 @@ Scheduler (every hour)
 ## Channel Monitor (GemTools)
 
 ### Description
-Service that monitors the Telegram channel `@gem_tools_calls` and copies token signals to Zara's channel, reformatting them with its own style.
+Service that monitors the Telegram channel `@gem_tools_calls` and copies token signals to POLYNIKI AI's channel, reformatting them with its own style.
 
 ### File
 `backend/src/services/channelMonitor.js`
@@ -387,7 +387,7 @@ Service that monitors the Telegram channel `@gem_tools_calls` and copies token s
 | `processMessage(message)` | Processes and classifies message |
 | `isTokenCallMessage(text)` | Detects if it's a token call |
 | `isMultiplierMessage(text)` | Detects if it's a multiplier alert |
-| `reformatMessage(text)` | Reformats call to Zara style |
+| `reformatMessage(text)` | Reformats call to POLYNIKI AI style |
 | `reformatMultiplierMessage(text)` | Reformats multiplier |
 
 ### Token Call Detection
@@ -446,7 +446,7 @@ Message in @gem_tools_calls
           │
           ▼
     ┌───────────────┐
-    │ Send to Zara  │
+    │ Send to POLYNIKI AI  │
     │   Telegram    │
     └───────┬───────┘
           │
@@ -499,11 +499,11 @@ GemTools publishes:
 └────────┬──────────┘
          │
          ▼
-Zara publishes to Telegram:
-🚀🚀🚀 ZARA MULTIPLIER ALERT 🚀🚀🚀
+POLYNIKI AI publishes to Telegram:
+🚀🚀🚀 POLYNIKI AI MULTIPLIER ALERT 🚀🚀🚀
 💎 $SCARLETT just did x11!
 💵 MC: $144K → $1M5
-⚡️ Powered by Zara AI
+⚡️ Powered by POLYNIKI AI AI
          │
          ▼
 ┌───────────────────┐
@@ -727,11 +727,11 @@ Top bar with:
 - "LIVE SIGNALS" badge with matrix effect
 
 #### 3. ChatTerminal
-Chat terminal with Zara AI:
+Chat terminal with POLYNIKI AI AI:
 - Text input with blinking cursor
 - Message history
 - "SEND" button with HoverSlatButton effect
-- "ZARA TERMINAL" title with MatrixText effect
+- "POLYNIKI AI TERMINAL" title with MatrixText effect
 - Loading indicator "Analyzing markets..."
 
 #### 4. SignalsFeed
@@ -746,7 +746,7 @@ Real-time signals feed:
 #### 5. TweetsFeed
 Stacked tweets feed:
 - Stacked cards with hover effect
-- Zara avatar
+- POLYNIKI AI avatar
 - Verified badge
 - Likes and retweets
 - Links to Twitter
@@ -878,7 +878,7 @@ CRON_SCHEDULE=*/15 * * * *
 ## File Structure
 
 ```
-zara-signals/
+POLYNIKI AI-signals/
 │
 ├── backend/
 │   ├── src/
@@ -894,7 +894,7 @@ zara-signals/
 │   │       ├── telegram.js       # Telegram bot
 │   │       ├── twitter.js        # Twitter client
 │   │       ├── websocket.js      # WebSocket server
-│   │       └── zara-ai.js        # AI chat service
+│   │       └── POLYNIKI AI-ai.js        # AI chat service
 │   │
 │   ├── assets/
 │   │   ├── pump.png              # Image for PUMP
@@ -930,7 +930,7 @@ zara-signals/
 │   │       └── api.js            # REST API client
 │   │
 │   ├── public/
-│   │   ├── zara.png              # Zara logo
+│   │   ├── POLYNIKI AI.png              # POLYNIKI AI logo
 │   │   └── perfil2.png           # Avatar for tweets
 │   │
 │   ├── index.html
@@ -954,7 +954,7 @@ zara-signals/
 | GET | `/api/market/polymarket/hot` | Top 10 markets |
 | GET | `/api/signals` | Recent signals |
 | GET | `/api/tweets` | Recent tweets |
-| POST | `/api/chat` | Chat with Zara AI |
+| POST | `/api/chat` | Chat with POLYNIKI AI AI |
 | DELETE | `/api/chat/:sessionId` | Clear chat session |
 | POST | `/api/admin/trigger-update` | Manual update trigger |
 
@@ -1015,5 +1015,5 @@ npm run preview
 
 ---
 
-*Documentation generated for Zara AI v1.0.0*
+*Documentation generated for POLYNIKI AI AI v1.0.0*
 *Last updated: January 2026*
